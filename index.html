@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WLMC - Landmark College Radio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <style>
+        .player-container {
+            margin: 0 auto; /* Center horizontally */
+            width: 70%; /* Adjust the width as needed */
+            text-align: center; /* Center text */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>WLMC - Landmark College Radio</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="programs.html">Programs</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section>
+        <h2>Welcome to WLMC</h2>
+        <p>Welcome to WLMC, the official radio station of Landmark College. Tune in to listen to our diverse range of programs, music, and discussions!</p>
+        <p>Stay connected with us to stay updated on our latest shows, events, and more.</p>
+        <div class="player-container">
+            <audio controls autoplay>
+                <source src="http://wlmc.landmark.edu:8000/stream" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </section>
+    <footer>
+        <p>2024 WLMC - Landmark College Radio</p>
+    </footer>
+</body>
+</html>
