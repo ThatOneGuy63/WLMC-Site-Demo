@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Audio Player</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="custom-audio-player">
+    <audio id="audio-player" src="http://streamwrhu.net:8500/wrhu.mp3"></audio>
+    <button id="play-pause-button" type="button">Play/Pause</button>
+    <label for="volume-slider">Volume:</label>
+    <input type="range" id="volume-slider" min="0" max="100" value="100">
+    <!-- Additional player controls can be added here -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
